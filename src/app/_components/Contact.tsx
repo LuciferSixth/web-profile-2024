@@ -9,38 +9,26 @@ import {
   
   type Props = {};
   
-  const contact = (props: Props) => {
+  const Contacts = (props: Props) => {
     return (
-      <Card title="Skill">
-        <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+      <Card title="Contact">
+        <div className="flex flex-wrap">
           <div className="text-center">
-            <FontAwesomeIcon icon={faPhone} className="h-10" />
-            <p>0937382932</p>
+            <FontAwesomeIcon icon={faPhone} className="h-5" />
+            <p className="mb-2 text-xs font-semibold">0937382932</p>
           </div>
           <div className="text-center">
-            <FontAwesomeIcon icon={faFacebook} className="h-10" />
-            <p>Phimphot Nualnim</p>
+            <FontAwesomeIcon icon={faLocation} className="h-5" />
+            <p className="mb-2 text-xs font-semibold">Trang, Thailand</p>
           </div>
           <div className="text-center">
-            <FontAwesomeIcon icon={faInstagram} className="h-10" />
-            <p>beemz6</p>
-          </div>
-          <div className="text-center">
-            <FontAwesomeIcon icon={faLine} className="h-10" />
-            <p>beem0641</p>
-          </div>
-          <div className="text-center">
-            <FontAwesomeIcon icon={faLocation} className="h-10" />
-            <p>Trang, Thailand</p>
-          </div>
-          <div className="text-center">
-            <FontAwesomeIcon icon={faMailBulk} className="h-10" />
-            <p>beamnaja75@gmail.com</p>
+            <FontAwesomeIcon icon={faMailBulk} className="h-5" />
+            <p className="mb-2 text-xs font-semibold">phimphot@gmail.com</p>
           </div>
         </div>
       </Card>
     );
   };
   
-  export default contact;
+  export default Contacts;
   

@@ -6,7 +6,7 @@ import Education from "./_components/Education";
 import Skill from "./_components/Skill";
 import Goals from "./_components/Goals";
 import Portfolio from "./_components/Portfolio";
-import contact from "./_components/Contact";
+import Contacts from "./_components/Contact";
 import Link from "next/link";
 
 
@@ -26,9 +26,11 @@ export default function Home() {
         </div>
       </div>
       <div className="grid grid-flow-col grid-cols-8 gap-4">
-        <div className="col-span-2">
+        <div className="grid grid-flow-row auto-rows-max col-span-2 gap-4">
           <Profile />
+          <Contacts />
         </div>
+
         <div className="grid col-span-6 grid-cols-3 xl:grid-cols-6 gap-4">
           <div className="grid col-span-3 gap-4">
             <Bio />

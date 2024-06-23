@@ -12,7 +12,7 @@ const Profile = (props: Props) => {
           width={500}
           height={500}
           alt="profile picture"
-          className="w-3/4 aspect-square rounded-full border-4 border-white"
+          className="w-3/4 aspect-square rounded-full border-5 border-white"
         />
       </div>
       <div className="text-center">
@@ -21,7 +21,7 @@ const Profile = (props: Props) => {
       </div>
 
       <div className="py-10 text-center ">" I am Ironman "</div>
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
+      <div className="p-6 mx-1 xl:mx-4 bg-blue-300 rounded-md">
         <p>
           <b>Age:</b> 21
         </p>
