@@ -10,7 +10,7 @@ const Personality = (props: Props) => {
       <div>
         <p className="text-lg">Commander (ENTJ)</p>
         <p className="pb-2">
-        I am a person who speaks little, listens a lot, understands problems, I am a actives listening. I am a calm person, smiles easily. I am a person who is determined, responsible for the assigned duties. I can communicate well for teamwork. I can manage work.
+        personality type with the Extraverted, Intuitive, Thinking, and Judging traits. They are decisive people who love momentum and accomplishment. They gather information to construct their creative visions but rarely hesitate for long before acting on them.
         </p>
         <div className="flex gap-1">
           <Badge>INTROVERTED</Badge>
