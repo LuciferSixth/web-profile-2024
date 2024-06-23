@@ -1,17 +1,13 @@
 import {
   faCss3,
-  faDocker,
   faGithub,
   faHtml5,
   faJava,
   faJs,
   faMicrosoft,
   faNodeJs,
-  faPhp,
   faPython,
   faReact,
-  faRust,
-  faVuejs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Card from "./common/Card";

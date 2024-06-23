@@ -10,14 +10,14 @@ const Personality = (props: Props) => {
       <div>
         <p className="text-lg">Adventurer (ISFP)</p>
         <p className="pb-2">
-          Adventurers are flexible and charming, always ready to explore and
-          experience something new.
+        I am a person who speaks little, listens a lot, understands problems, I am a actives listening. I am a calm person, smiles easily. I am a person who is determined, responsible for the assigned duties. I can communicate well for teamwork. I can manage work.
         </p>
         <div className="flex gap-1">
           <Badge>INTROVERTED</Badge>
           <Badge>OBSERVANT</Badge>
           <Badge>FEELING</Badge>
           <Badge>PROSPECTING</Badge>
+          <Badge>Sensitive</Badge>
         </div>
       </div>
     </Card>
