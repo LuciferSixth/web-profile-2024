@@ -12,7 +12,7 @@ import {
   const Contacts = (props: Props) => {
     return (
       <Card title="Contact">
-        <div className="flex flex-wrap">
+        <div className="flex flex-col">
           <div className="text-center">
             <FontAwesomeIcon icon={faPhone} className="h-5" />
             <p className="mb-2 text-xs font-semibold">0937382932</p>
