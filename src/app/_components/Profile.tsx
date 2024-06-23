@@ -31,6 +31,15 @@ const Profile = (props: Props) => {
         <p>
           <b>Location:</b> Thailand
         </p>
+        <p>
+          <b>Religion:</b> Buddhism
+        </p>
+        <p>
+          <b>Birth Date:</b> 2003-06-06
+        </p>
+        <p>
+          <b>Graduated 3rd year standing ROTCS Curriculum by Reserve Commander Unit</b>
+        </p>
       </div>
     </div>
   );
