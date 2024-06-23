@@ -8,7 +8,7 @@ const Personality = (props: Props) => {
   return (
     <Card title="Personality">
       <div>
-        <p className="text-lg">Adventurer (ISFP)</p>
+        <p className="text-lg">Commander (ENTJ)</p>
         <p className="pb-2">
         I am a person who speaks little, listens a lot, understands problems, I am a actives listening. I am a calm person, smiles easily. I am a person who is determined, responsible for the assigned duties. I can communicate well for teamwork. I can manage work.
         </p>
