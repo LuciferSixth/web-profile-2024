@@ -1,9 +1,11 @@
 import {
   faCss3,
   faDocker,
+  faGithub,
   faHtml5,
   faJava,
   faJs,
+  faMicrosoft,
   faNodeJs,
   faPhp,
   faPython,
@@ -60,6 +62,14 @@ const Skill = (props: Props) => {
         <div className="text-center">
           <FontAwesomeIcon icon={faJs} className="h-10" />
           <p>Java Script</p>
+        </div>
+        <div className="text-center">
+          <FontAwesomeIcon icon={faGithub} className="h-10" />
+          <p>GitHub</p>
+        </div>
+        <div className="text-center">
+          <FontAwesomeIcon icon={faMicrosoft} className="h-10" />
+          <p>Microsoft</p>
         </div>
       </div>
     </Card>
