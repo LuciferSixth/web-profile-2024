@@ -6,7 +6,9 @@ import Education from "./_components/Education";
 import Skill from "./_components/Skill";
 import Goals from "./_components/Goals";
 import Portfolio from "./_components/Portfolio";
+import contact from "./_components/Contact";
 import Link from "next/link";
+
 
 export default function Home() {
   return (

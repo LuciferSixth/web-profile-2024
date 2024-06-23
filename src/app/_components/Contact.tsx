@@ -1,20 +1,11 @@
 import {
-    faCss3,
     faFacebook,
-    faGithub,
-    faHtml5,
     faInstagram,
-    faJava,
-    faJs,
     faLine,
-    faMicrosoft,
-    faNodeJs,
-    faPython,
-    faReact,
   } from "@fortawesome/free-brands-svg-icons";
   import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   import Card from "./common/Card";
-  import { faC, faDatabase, faLocation, faMailBulk, faPhone, faR } from "@fortawesome/free-solid-svg-icons";
+  import { faLocation, faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
   
   type Props = {};
   
